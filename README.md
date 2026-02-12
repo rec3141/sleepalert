@@ -5,8 +5,7 @@ Simple macOS battery monitor that dims/flashes the display at low battery thresh
 ## This Mac (tested)
 
 - macOS 15.5 (24F74)
-- Apple M4 Max (16 cores)
-- 128 GB memory
+- Apple M4 Max
 
 ## Brightness Tool Note
 
@@ -18,7 +17,6 @@ Homebrew `brightness` did not work reliably for this machine/context. Follow the
 Recommended steps:
 
 ```bash
-brew uninstall brightness
 git clone https://github.com/nriley/brightness.git
 cd brightness
 make
