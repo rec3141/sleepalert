@@ -1,0 +1,8 @@
+__pycache__/
+*.py[cod]
+
+battery_monitor.log
+battery_monitor.error.log
+
+.claude/
+.DS_Store
